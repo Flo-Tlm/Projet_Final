@@ -36,28 +36,53 @@
         </div>
 
     </article>
-<section class= "max-w-7xl mx-auto overflow-x-auto pb-5">
-    <h1 class="text-4xl font-bold leading-tight md:text-3xl text-center text-white mt-32 ">Gallerie</h1>
+    <section class="max-w-7xl mx-auto overflow-x-auto pb-10">
+        <h1 class="text-4xl font-bold leading-tight md:text-3xl text-center text-white mt-32 ">Gallerie</h1>
 
-    <div class="swiper mySwiper mt-20">
-        <div class="swiper-wrapper flex justify-between ">
-            <div class="swiper-slide">
-                <img class="object-cover w-full  h-96" src="/storage/img/1.png" alt="cilaos" />
+        <div class="swiper mySwiper mt-20 ">
+            <div class="swiper-wrapper flex justify-between shadow-xl ">
+                <div class="swiper-slide">
+                    <img class="object-cover w-full  h-90" src="/storage/img/1.png" alt="rivière" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="object-cover w-full  h-96" src="/storage/img/2.png" alt="volcan" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="object-cover w-full h-96" src="/storage/img/3.png" alt="ciloas" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="object-cover w-full h-96" src="/storage/img/4.png" alt="sables" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="object-cover w-full h-96" src="/storage/img/5.png" alt="mafate" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="object-cover w-full h-96" src="/storage/img/6.png" alt="babet" />
+                </div>
+
             </div>
 
-            <div class="swiper-slide">
-                <img class="object-cover w-full  h-96" src="/storage/img/2.png" alt="volcan" />
-            </div>
-            <div class="swiper-slide">
-                <img class="object-cover w-full h-96" src="/storage/img/3.png" alt="rivière" />
-            </div>
-
-
+            <div class="swiper-pagination mb-5"></div>
         </div>
-        
-        <div class="swiper-pagination"></div>
-    </div>
-</section>
+    </section>
+
+
+    <section class= "max-w-7xl px-6 py-15 mx-auto space-y-12 pb-10">
+      <div class= "max-w-7xl bg-[#D9D9D9]">
+        <h1 class="text-4xl font-bold leading-tight md:text-3xl text-center text-black mt-32">Dernier article publié</h1>
+        <
+       
+      </div>
+      
+       
+
+
+    </section>
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -66,15 +91,15 @@
             spaceBetween: 30,
             centeredSlides: true,
             autoplay: {
-                delay: 2500,
+                delay: 3000,
                 disableOnInteraction: false,
             },
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            
-            
+
+
         });
     </script>
 @endsection
