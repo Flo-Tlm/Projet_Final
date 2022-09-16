@@ -5,7 +5,7 @@
     @include('parts.head')
 </head>
 
-<body class="max-w-7xl mx-auto">
+<body class="bg-[#395558]"
     <header>
         @include('parts.header')
     </header>
