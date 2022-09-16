@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.imghd {
+
+    background-image: url("/storage/img/Jaquette.jpg");
+    height: 875px; 
+    width: 1440px;
+   background-repeat: no-repeat;
+  
+}
