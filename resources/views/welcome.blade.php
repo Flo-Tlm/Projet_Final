@@ -196,7 +196,7 @@
                 <img src="/storage/img/1080pSS10.jpg" alt="" class="h-90 w-[640px]">
                 <div class="flex flex-col justify-center flex-1 p-6 bg-white">
 
-                    <h2 class="text-xl font-bold mx-auto">Game play</h2>
+                    <h2 class="text-xl font-bold mx-auto mt-10">Game play</h2>
 
                     <h3 class="text-lg font-bold mt-10 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nulla euismod ut justo non laoreet ?</h3>
@@ -250,7 +250,7 @@
                         </li>
                         <span class="text-gray-400 ml-3">(3 sur 5)</span>
                     </ul>
-                    <p class="text-sm dark:text-gray-400 mt-3 mx-auto">861 votes</p>
+                    <p class="text-sm text-gray-400 mt-3 mx-auto">861 votes</p>
 
                     <button
                         class="flex justify-between mt-20  ml-auto text-black bg-[#F2A341] border-0 py-2 px-6 focus:outline-none hover:bg-[#FFC83C] rounded-full">
@@ -332,7 +332,7 @@
                 <img src="/storage/img/nouvelle_map_wip.png" alt="" class="h-90 w-[640px]">
                 <div class="flex flex-col justify-center flex-1 p-6 bg-white">
 
-                    <h2 class="text-xl font-bold mx-auto">La carte</h2>
+                    <h2 class="text-xl font-bold mx-auto mt-10">La carte</h2>
                     <h3 class="text-lg font-bold mt-10 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nulla euismod ut justo non laoreet ?</h3>
 
