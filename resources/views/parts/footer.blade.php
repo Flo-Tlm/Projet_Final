@@ -1,5 +1,5 @@
 <footer class="  px-4 divide-y bg-gray-800 text-gray-100">
-    <div class="flex flex-col md:flex-row justify-between p-6">
+    <div class="flex flex-col mx-auto  ml-14 p-6 md:flex-row justify-between ">
 
         <div class="flex items-center content-center justify-center">
 
@@ -22,11 +22,12 @@
 
             <div class=" mr-14 space-y-3">
                 <a rel="noopener noreferrer" href="#">
-					<img src="/storage/img/LogoEpicGame.png" alt="logo" class="flex-shrink-0 w-cover h-12 m-3" /></a>
+					<img src="/storage/img/LogoEpicGame.png" alt="logo" class="flex-shrink-0 w-cover h-14 m-3"/></a>
     </div>
 
             <div class=" mr-14 space-y-3 ">
-                <a rel="noopener noreferrer" href="#"> <img src="/storage/img/LogoSteam.png" alt="logo"class="flex-shrink-0 w-full h-12" /></a>
+                <a rel="noopener noreferrer" href="#"> 
+                    <img src="/storage/img/LogoSteam.png" alt="logo"class="flex-shrink-0 w-cover h-18" /></a>
             </div>
         </div>
 
