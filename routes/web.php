@@ -22,5 +22,9 @@ Route::get('/studio', function () {
     return view('studio');
 });
 
+Route::get('/articles', function () {
+    return view('articles');
+});
+
 
 
