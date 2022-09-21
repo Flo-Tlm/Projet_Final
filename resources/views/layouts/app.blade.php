@@ -2,12 +2,12 @@
 <html lang="fr">
 
 <head>
-    @include('parts.head')
+    @include('composent.head')
 </head>
 
 <body class="bg-[#395558]"
     <header>
-        @include('parts.header')
+        @include('composent.header')
     </header>
 
     <main>
@@ -15,7 +15,7 @@
     </main>
 
     <footer>
-        @include('parts.footer')
+        @include('composent.footer')
     </footer>
 	
   @vite('resources/js/app.js')
