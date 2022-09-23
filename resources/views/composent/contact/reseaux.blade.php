@@ -10,18 +10,21 @@
             <div class="flex flex-wrap justify-around items-baseline">
             <div class="flex flex-col">
                 <div class="item w-32 	flex items-center content-center justify-center">
-                    <img src="/storage/img/facebook.png" alt="mazu" class="w-14 mt-10">
+                    <a href ="https://www.facebook.com/3cent60production" >
+             <img  src="/storage/img/facebook.png" alt="facebook" class="w-14 mt-10"></a>
                 </div>
   
             </div>
             <div class="flex flex-col">
                 <div class="item w-32 mt-3	flex items-center content-center justify-center">
-                    <img src="/storage/img/instagram.png" alt="mazu" class="w-14">
+                    <a href ="https://www.instagram.com/tcsproduction/" >
+                    <img src="/storage/img/instagram.png" alt="instagram" class="w-14"></a>
                 </div>
             </div>
             <div class="flex flex-col">
                 <div class="item w-32 	flex items-center content-center justify-center">
-                    <img src="/storage/img/twitter.png" alt="mazu" class="w-14">
+                    <a href ="https://twitter.com/tcs_production">
+                    <img src="/storage/img/twitter.png" alt="twitter" class="w-14"></a>
                 </div>
             </div>
           </div>

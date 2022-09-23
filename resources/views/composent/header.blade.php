@@ -1,33 +1,20 @@
-<div class="imghd mx-auto">
-    <div class="p-4  text-white">
-        <div class="container flex justify-between  bg-[#395558] h-15 mt-2 mx-auto">
+<section class="i text-white body-font">
+    <div class="bg-[#395558] mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a href="/" class=" flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <img  src="/storage/img/Logo-TCS.png" alt="logo" class="h-14">
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a href="/" class="mr-5 hover:text-[#F2A341]">Accueil</a>
+        <a href="/studio" class="mr-5 hover:text-[#F2A341]">Studio</a>
+        <a href="/articles" class="mr-5 hover:text-[#F2A341]">Articles</a>
+        <a href="/contact"class="mr-5 hover:text-[#F2A341]">Contact</a>
+      </nav>
 
-            <a href=""><img src="/storage/img/Logo-TCS.png" alt="logo" class="w-auto h-12 mt-3 ml-5" /></a>
-
-            <ul class="items-stretch hidden space-x-3 lg:flex">
-                <li class="flex">
-                    <a rel="noopener noreferrer" href="#"
-                        class="flex items-center px-4 -mB-1 border-b- border-transparent text-[#F2A341] border-[#F2A341]">Accueil</a>
-                </li>
-                <li class="flex">
-                    <a rel="noopener noreferrer" href="#"
-                        class="flex items-center px-4 -mb-1 border-b-2 border-transparent">Studio</a>
-                </li>
-                <li class="flex">
-                    <a rel="noopener noreferrer" href="#"
-                        class="flex items-center px-4 -mb-1 border-b-2 border-transparent">Articles</a>
-                </li>
-                <li class="flex">
-                    <a rel="noopener noreferrer" href="#"
-                        class="flex items-center px-4 -mb-1 border-b-2 border-transparent">Contact</a>
-                </li>
-            </ul>
-            <div class="items-center flex-shrink-0 hidden lg:flex">
-                <a href=""><img src="/storage/img/Login.png" alt="" class="w-auto h-12 m-3" /></a>
-                <a href=""><img src="/storage/img/iconLogin.png" alt="" class="w-auto h-5 mr-5" /></a>
-            </div>
-
-
-        </div>
-    </div>
+    <div class="md: md: ">
+       <img src="/storage/img/Login.png" alt="Login" class="w-10">
 </div>
+    <div class=" md: md: ml-1">
+        <img src="/storage/img/iconLogin.png" alt="Login" class="w-4">
+ </div>
+    </div>
+  </section>
