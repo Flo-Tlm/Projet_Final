@@ -14,3 +14,9 @@
 .oppacité {
     background-color: rgba(217, 217, 217, 0.603);
 }
+
+.block6{
+    height: inherit;
+    width: 100%;
+   
+  }

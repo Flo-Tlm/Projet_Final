@@ -22,5 +22,14 @@ Route::get('/studio', function () {
     return view('studio');
 });
 
+Route::get('/articles', function () {
+    return view('articles');
+});
+
+Route::get('/oneArticle', function () {
+    return view('oneArticle');
+});
+
+
 
 

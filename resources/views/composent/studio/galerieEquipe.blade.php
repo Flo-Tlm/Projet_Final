@@ -9,18 +9,18 @@
                 <img alt="gallery" class="w-full object-cover h-full object-center block" src="/storage/img/GONI.png">
               </div>
               <div class="md:p-2 p-1 w-full">
-                <img alt="gallery" class="w-full h-full object-fill object-center block" src="/storage/img/image_0.png">
+                <img alt="gallery" class="w-full h-full object-cover object-center block" src="/storage/img/Vignette03.jpg">
               </div>
             </div>
             <div class="flex flex-wrap w-1/2">
               <div class="md:p-2 p-1 w-full">
-                <img alt="gallery" class="w-full h-full object-fill object-center block" src="/storage/img/TcsProduction.png">
+                <img alt="gallery" class="w-full h-full object-cover object-center block" src="/storage/img/TcsProduction.png">
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img alt="gallery" class="w-full object-cover h-full object-center block" src="/storage/img/PP.png">
               </div>
               <div class="md:p-2 p-1 w-1/2">
-                <img alt="gallery" class="w-full object-cover h-80 object-center block" src="/storage/img/mazu_cameleon_transparent_D.png">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="/storage/img/mazu_cameleon_transparent_D.png">
               </div>
             </div>
           </div>
