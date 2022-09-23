@@ -1,4 +1,4 @@
-<section class=" max-w-7xl p-8 mb-16 mx-auto  text-black">
+<section class=" max-w-7xl p-8 mx-auto  text-black">
     
     <div class="flex justify-center">
         <div class=" oppacité flex flex-col md:flex-row md:max-w-xl rounded-lg  shadow-lg">
