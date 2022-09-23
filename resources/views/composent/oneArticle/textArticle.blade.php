@@ -6,7 +6,7 @@
             <img src="/storage/img/mazu_cameleon_transparent_D.png" alt="mazu" class="w-32">
             <img src="/storage/img/mazu_cameleon_transparent_G.png" alt="mazu" class="w-32">
 </div>
-            <h1 class="text-4xl font-bold leading-tight md:text-3xl ">GAMEPLAY</h1>
+            <h1 class="text-4xl font-bold leading-tight md:text-3xl mb-5 ">GAMEPLAY</h1>
             
         </div>
         <div>

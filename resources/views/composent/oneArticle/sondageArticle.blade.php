@@ -1,6 +1,6 @@
 <section class=" oppacité max-w-7xl p-8 mt-16 mx-auto bg-[#D9D9D9] text-black">
 
-    <h2 class="text-2xl font-bold text-center mb-8">Lorem ipsum dolor sit amet consectetur adipiscing elit ?</h2>
+    <h3 class="text-2xl font-bold text-center mb-8">Lorem ipsum dolor sit amet consectetur adipiscing elit ?</h3>
     
     <div class="flex bg-white rounded-2xl justify-around items-stretch m-10 p-10">
         <div class="item   rounded w-90 h-20 flex items-center content-center justify-center">
@@ -197,5 +197,24 @@
         </div>
     </div>
 
-    
+    <div class="flex justify-end mr-5">
+        <div class="flex flex-start m-6">
+            <p class=""> 319 </p>
+            <img src="/storage/img/like.png" alt="like" class="h-5 ml-1">
+        </div>
+
+        <div class="flex flex-start m-6">
+            <p class=""> 319 </p>
+            <img src="/storage/img/bulle.png" alt="like" class="h-5 ml-1">
+        </div>
+        <div class="flex flex-start m-6">
+            <p class=""> 319 </p>
+            <img src="/storage/img/share.png" alt="like" class="h-5 ml-1">
+        </div>
+    </div>
+    <button
+    class="flex mx-auto  text-black bg-[#F2A341] border-0 py-2 px-6 focus:outline-none hover:bg-[#FFC83C] rounded-full">
+    <span>Ajouter un commentaire </span>
+  
+</button>
 </section>
