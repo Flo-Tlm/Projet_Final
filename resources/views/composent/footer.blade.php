@@ -4,7 +4,7 @@
         <div class="flex items-center content-center justify-center">
 
             <a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
-                <img src="/storage/img/Logo-TCS.png" alt="logo" class="flex-shrink-0 w-auto m-4 h-12" />
+                <img src="/storage/img/Logo-TCS.png" alt="logo" class="flex w-auto m-4 h-12" />
             </a>
         </div>
 
@@ -12,28 +12,28 @@
 
             <div class=" mr-14 space-y-3">
                 <a rel="noopener noreferrer" href="#">
-                    <img src="/storage/img/LogoPs5.png" alt="logo" class="flex-shrink-0 w-cover h-14  m-3" /></a>
+                    <img src="/storage/img/LogoPs5.png" alt="logo" class="flexw-14 h-14  m-3" /></a>
             </div>
 
             <div class="mr-14 space-y-3 ">
                 <a rel="noopener noreferrer" href="#">
-                    <img src="/storage/img/LogoXbox.png" alt="logo" class="flex-shrink-0 w-cover h-12 m-3" /></a>
+                    <img src="/storage/img/LogoXbox.png" alt="logo" class="flexw-14 h-12 m-3" /></a>
             </div>
 
             <div class=" mr-14 space-y-3">
                 <a rel="noopener noreferrer" href="#">
-					<img src="/storage/img/LogoEpicGame.png" alt="logo" class="flex-shrink-0 w-cover h-14 m-3"/></a>
+					<img src="/storage/img/LogoEpicGame.png" alt="logo" class="flexw-18 h-14 m-3"/></a>
     </div>
 
             <div class=" mr-14 space-y-3 ">
                 <a rel="noopener noreferrer" href="#"> 
-                    <img src="/storage/img/LogoSteam.png" alt="logo"class="flex-shrink-0 w-cover h-18" /></a>
+                    <img src="/storage/img/LogoSteam.png" alt="logo"class="flex w-14 h-14  m-3" /></a>
             </div>
         </div>
 
         <div class="flex items-center content-center justify-center space-y-3">
             <a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
-                <img src="/storage/img/mazu_cameleon_transparent_D.png"alt="logo"class="flex-shrink-0 w-auto h-14 m-3" />
+                <img src="/storage/img/mazu_cameleon_transparent_D.png"alt="logo"class="flexw-auto h-14 m-3" />
             </a>
         </div>
     </div>

@@ -3,20 +3,44 @@
 @tailwind utilities;
 
 .imghd {
-
-    background-image: url("/storage/img/Jaquette.jpg");
-    height: 875px; 
-    width: 1440px;
-   background-repeat: no-repeat;
-  
+    background-image: url("/storage/img/Jaquette_horizontal.png");
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+   
+    background-size:100vw;
+    justify-content: center;
+   align-items:flex-start;
+position: relative ;
+background-repeat: no-repeat;
+z-index: -10;
 }
+
+@media screen and (max-width: 768px) {
+    .imghd {
+        background-image: url("/storage/img/Jaquette_03.jpg");
+        height: 100vh;
+        width: 100vw;
+       
+    }
+}
+
+
+    
+
+
+ 
+    
+   
+
 
 .oppacité {
     background-color: rgba(217, 217, 217, 0.603);
+    margin-top: 15px;
 }
 
-.block6{
+.block6 {
     height: inherit;
     width: 100%;
-   
-  }
+}
