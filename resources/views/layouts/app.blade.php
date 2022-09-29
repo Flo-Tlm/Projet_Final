@@ -7,7 +7,8 @@
 
 <body class="bg-[#395558]"
     <header>
-        @include('composent.header')
+        @include('composent.header.menu')
+        @include('composent.header.imgJaquette')
     </header>
 
     <main>

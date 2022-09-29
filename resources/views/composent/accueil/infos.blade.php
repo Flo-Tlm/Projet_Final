@@ -1,18 +1,18 @@
-<section class=" oppacité max-w-7xl p-10  mx-auto bg-[#D9D9D9] text-black">
+<section class=" oppacité max-w-7xl p-10 mx-auto text-black">
     <article class="max-w-7xl px-6 py-15 mx-auto space-y-12">
         <div class="w-full mx-auto  text-center">
 
-<div class= "flex mx-96 pl-16">
-            <img src="/storage/img/mazu_cameleon_transparent_D.png" alt="mazu" class="w-32">
-            <img src="/storage/img/mazu_cameleon_transparent_G.png" alt="mazu" class="w-32">
-</div>
+            <div class="flex justify-center">
+                <img src="/storage/img/mazu_cameleon_transparent_D.png" alt="mazu" class="w-32">
+                <img src="/storage/img/mazu_cameleon_transparent_G.png" alt="mazu" class="w-32">
+            </div>
             <h1 class="text-4xl font-bold leading-tight md:text-3xl ">ONE DAY</h1>
             <h1 class="text-4xl font-bold leading-tight md:text-6xl">I AM</h1>
-            
+
 
 
         </div>
-        <div class="pt-14 ">
+        <div>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>&nbsp;
             <p> Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
                 lectus

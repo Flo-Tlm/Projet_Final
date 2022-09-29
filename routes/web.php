@@ -30,6 +30,10 @@ Route::get('/oneArticle', function () {
     return view('oneArticle');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 
 
 

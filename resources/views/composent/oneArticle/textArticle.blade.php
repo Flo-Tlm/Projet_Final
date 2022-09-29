@@ -2,7 +2,7 @@
     <article class="max-w-7xl px-6 py-15 mx-auto space-y-12">
         <div class="w-full mx-auto  text-center">
 
-<div class= "flex mx-96 pl-16">
+            <div class="flex justify-center">
             <img src="/storage/img/mazu_cameleon_transparent_D.png" alt="mazu" class="w-32">
             <img src="/storage/img/mazu_cameleon_transparent_G.png" alt="mazu" class="w-32">
 </div>

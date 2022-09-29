@@ -1,4 +1,4 @@
-<section class=" sm:py-12 mb-16 max-w-7xl mx-auto text-black  ">
+<section class=" sm:py-12 mb-16 max-w-7xl mx-auto text-black">
     <h1 class="text-4xl font-bold leading-tight md:text-3xl text-center text-white mb-14">Les articles du moment</h1>
             <div class="max-w-7xl mx-auto">
                 <div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
