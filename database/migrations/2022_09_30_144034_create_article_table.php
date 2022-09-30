@@ -19,7 +19,7 @@ class CreateArticleTable extends Migration
             $table->text('description');
             $table->date('date');
             $table->string('images');
-            $table->integer('id_sondage');
+            $table->integer('id_sondage')->nullable();
         });
     }
 

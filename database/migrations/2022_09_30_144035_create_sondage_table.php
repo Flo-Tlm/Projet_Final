@@ -16,7 +16,7 @@ class CreateSondageTable extends Migration
         Schema::create('sondage', function (Blueprint $table) {
             $table->increments('id');
             $table->string('question');
-            $table->unsignedBigInteger('id_reponse');
+            $table->unsignedBigInteger('id_reponse')->nullable();
         });
     }
 
