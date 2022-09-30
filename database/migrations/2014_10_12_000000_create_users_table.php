@@ -20,6 +20,8 @@ return new class extends Migration
             $table->string('pseudo');
             $table->string('email')->unique();
             $table->string('password');
+            $table->integer('id_role');
+            
             $table->rememberToken();
             $table->timestamps();
         });
