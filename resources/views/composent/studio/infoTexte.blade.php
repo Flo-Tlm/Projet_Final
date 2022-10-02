@@ -10,41 +10,12 @@
             
         </div>
         <div>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>&nbsp;
-            <p> Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
-                lectus
-                quam, ultricies id mi ut, lacinia placerat turpis. Nam efficitur velit in tortor condimentum cursus.
-                Nulla
-                euismod ut justo non laoreet. Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. </p>&nbsp;
-            <p> Mauris semper mi ut ante rutrum, quis condimentum est porta. Nam vestibulum ultricies sapien, fermentum
-                bibendum leo pellentesque eu. Phasellus at metus eget dolor aliquet mattis. Ut egestas, ligula eget
-                varius
-                ultrices, metus erat vestibulum nunc, at sagittis orci sapien ut erat. Donec malesuada nisl id dui
-                condimentum sagittis.</p>&nbsp;
-            <p>Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
-                lectus
-                quam, ultricies id mi ut, lacinia placerat turpis. Nam efficitur velit in tortor condimentum cursus.
-                Nulla
-                euismod ut justo non laoreet. Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. Donec
-                malesuada
-                nisl id dui condimentum sagittis.Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. </p>&nbsp;
-            <p> Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
-                lectus
-                quam, ultricies id mi ut, lacinia placerat turpis. Nam efficitur velit in tortor condimentum cursus.
-                Nulla
-                euismod ut justo non laoreet. Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. </p>&nbsp;
-            <p> Mauris semper mi ut ante rutrum, quis condimentum est porta. Nam vestibulum ultricies sapien, fermentum
-                bibendum leo pellentesque eu. Phasellus at metus eget dolor aliquet mattis. Ut egestas, ligula eget
-                varius
-                ultrices, metus erat vestibulum nunc, at sagittis orci sapien ut erat. Donec malesuada nisl id dui
-                condimentum sagittis.</p>&nbsp;
-            <p>Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
-                lectus
-                quam, ultricies id mi ut, lacinia placerat turpis. Nam efficitur velit in tortor condimentum cursus.
-                Nulla
-                euismod ut justo non laoreet. Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. Donec
-                malesuada
-                nisl id dui condimentum sagittis.Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. </p>
+            <p> TCS Production est un jeune studio qui a pour activité : la création de contenu graphique, 3D, vidéo, en Réalité virtuelle et Réalité augmentée.
+
+                 </p>&nbsp;
+            <p> 
+                Nous développons actuellement ONE DAY I AM, le tout premier jeu vidéo en monde ouvert représentant l'île de la Réunion.</p>&nbsp;
+         
         </div>
 
     </article>

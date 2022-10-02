@@ -13,41 +13,20 @@
 
         </div>
         <div>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>&nbsp;
-            <p> Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
-                lectus
-                quam, ultricies id mi ut, lacinia placerat turpis. Nam efficitur velit in tortor condimentum cursus.
-                Nulla
-                euismod ut justo non laoreet. Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. </p>&nbsp;
-            <p> Mauris semper mi ut ante rutrum, quis condimentum est porta. Nam vestibulum ultricies sapien, fermentum
-                bibendum leo pellentesque eu. Phasellus at metus eget dolor aliquet mattis. Ut egestas, ligula eget
-                varius
-                ultrices, metus erat vestibulum nunc, at sagittis orci sapien ut erat. Donec malesuada nisl id dui
-                condimentum sagittis.</p>&nbsp;
-            <p>Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
-                lectus
-                quam, ultricies id mi ut, lacinia placerat turpis. Nam efficitur velit in tortor condimentum cursus.
-                Nulla
-                euismod ut justo non laoreet. Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. Donec
-                malesuada
-                nisl id dui condimentum sagittis.Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. </p>&nbsp;
-            <p> Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
-                lectus
-                quam, ultricies id mi ut, lacinia placerat turpis. Nam efficitur velit in tortor condimentum cursus.
-                Nulla
-                euismod ut justo non laoreet. Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. </p>&nbsp;
-            <p> Mauris semper mi ut ante rutrum, quis condimentum est porta. Nam vestibulum ultricies sapien, fermentum
-                bibendum leo pellentesque eu. Phasellus at metus eget dolor aliquet mattis. Ut egestas, ligula eget
-                varius
-                ultrices, metus erat vestibulum nunc, at sagittis orci sapien ut erat. Donec malesuada nisl id dui
-                condimentum sagittis.</p>&nbsp;
-            <p>Proin ac turpis vel sem laoreet fermentum at ut dolor. Etiam posuere elit at interdum varius. Fusce
-                lectus
-                quam, ultricies id mi ut, lacinia placerat turpis. Nam efficitur velit in tortor condimentum cursus.
-                Nulla
-                euismod ut justo non laoreet. Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. Donec
-                malesuada
-                nisl id dui condimentum sagittis.Ut cursus vestibulum eros, eu ullamcorper lacus dapibus eu. </p>
+            <h2 class=" text-2xl">"EXPLOREZ LA TERRE" </h2>&nbsp;
+
+            <p> Une façon unique de découvrir et de repousser ses limites.</p>&nbsp;
+
+            <p> Des voyages et des évasions aux mirages hallucinatoires, des affrontements cauchemardesques entre coupés
+                de défis oniriques...</p>&nbsp;
+
+            <p> Incarnez Justin est un humain d’une autre galaxie, il est envoyé par son Mentor sur la planète Terre, à
+                l’île de la Réunion pour découvrir comment les terriens vivent, leur culture, leur patrimoine, leur
+                histoire… Pendant son exploration Justin incarnera des personnages venues des contes réunionnais et du
+                monde entier dans des rêves plus réalistes les uns que les autres jusqu'à ce qu’il découvre la vérité
+                sur son mentor et pourquoi il a été envoyé sur cette planète. </p>&nbsp;
+            <p> Bienvenue dans One Day I AM. </p>&nbsp;
+           
         </div>
 
     </article>

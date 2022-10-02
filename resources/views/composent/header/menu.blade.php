@@ -31,9 +31,10 @@
             </label>
 
             <ul class="menu__box">
-                <li><a class="menu__item" href="./how.html">How it works</a></li>
-                <li><a class="menu__item" href="./results.html">Results</a></li>
-                <li><a class="menu__item" href="./faq.html">FAQ</a></li>
+                <li><a class="menu__item" href="/">Accueil</a></li>
+                <li><a class="menu__item" href="/studio">Studio</a></li>
+                <li><a class="menu__item" href="/articles">Articles</a></li>
+                <li><a class="menu__item" href="/contact">Contact</a></li>
                 <li><a class="menu__item" href="#">Sign up</a></li>
                 <li><a class="menu__item" href="#">Login</a></li>
             </ul>
