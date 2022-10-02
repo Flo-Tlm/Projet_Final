@@ -1,8 +1,8 @@
 <section class="max-w-7xl mx-auto overflow-x-auto pb-36">
     <h1 class="text-4xl font-bold leading-tight md:text-3xl text-center text-white mt-32 ">Gallerie</h1>
 
-    <div class="swiper mySwiper mt-20 ">
-        <div class="swiper-wrapper flex justify-between shadow-xl ">
+    <div class="monswiper swiper mySwiper mt-20  ">
+        <div class="swiper-wrapper flex justify-between shadow-xl z-0">
             <div class="swiper-slide">
                 <img class="object-cover w-full  h-96" src="/storage/img/1.png" alt="rivière" />
             </div>
