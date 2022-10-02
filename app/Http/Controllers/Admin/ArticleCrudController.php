@@ -42,7 +42,7 @@ class ArticleCrudController extends CrudController
         CRUD::column('Titre');
         CRUD::column('description');
         CRUD::column('date');
-        CRUD::column('images');
+       
         
      
 
@@ -67,7 +67,14 @@ class ArticleCrudController extends CrudController
         CRUD::field('Titre');
         CRUD::field('description');
         CRUD::field('date');
-        CRUD::field('images');
+        CRUD::addField([ // Photo
+            'name'      => 'images',
+            'label'     => 'images',
+            'type'      => 'upload_multiple',
+            'prefix' => 'storage',
+            'upload'    => true,
+            'temporary' => 10,
+        ]);
       
     }
 
@@ -80,5 +87,19 @@ class ArticleCrudController extends CrudController
     protected function setupUpdateOperation()
     {
         $this->setupCreateOperation();
+    }
+
+    function getFieldsData()
+    {
+        $this->crud->addColumn([
+            'name' => 'images',
+            'label' => 'images',
+            'type' => 'images',
+            'prefix' => '',
+            'height' => '80px',
+            'width' => 'auto',
+            
+
+        ]);
     }
 }
