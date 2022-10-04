@@ -35,5 +35,9 @@ Route::get('/contact', function () {
 });
 
 
+Route::post('/registered', [AuthController::class, 'registered'])->name('registered');
+Route::post('/login', [AuthController::class, 'login'])->name('login');
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+
 
 

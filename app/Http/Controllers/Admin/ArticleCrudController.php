@@ -39,6 +39,13 @@ class ArticleCrudController extends CrudController
      */
     protected function setupListOperation()
     {
+        $this->crud->setValidation([
+            'titre' => 'required|min:2',
+            'image' => 'required',
+            'date' => 'required',
+
+        ]);
+        $this->getFieldsData();
         CRUD::column('Titre');
         CRUD::column('description');
         CRUD::column('date');
@@ -62,7 +69,13 @@ class ArticleCrudController extends CrudController
      */
     protected function setupCreateOperation()
     {
-
+        $this->crud->setValidation([
+            'titre' => 'required|min:2',
+            'image' => 'required',
+            'date' => 'required',
+            'description' =>'required|min:10',
+        ]);
+            
         CRUD::setValidation(ArticleRequest::class);
         CRUD::field('Titre');
         CRUD::field('description');

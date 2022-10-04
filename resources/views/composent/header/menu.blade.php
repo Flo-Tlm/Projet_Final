@@ -1,3 +1,4 @@
+
 <section class=" text-white body-font overflow-hidden z-auto">
     <div class="fixed w-full top-0  p-5   items-center  ">
         <div class=" hidden w-full bg-[#395558] shadow-xl mx-auto md:flex p-5   items-center ">
@@ -11,17 +12,18 @@
                 <a href="/articles" class="mr-5 hover:text-[#F2A341]">Articles</a>
                 <a href="/contact"class="mr-5 hover:text-[#F2A341]">Contact</a>
             </nav>
+            @guest
             <div class="flex pt-4 md:pt-0">
                 <div class="flex">
-                    <img src="/storage/img/Login.png" alt="Login" class="w-10">
+                    <a href="/admin"><img src="/storage/img/Login.png" alt="Login" class="w-10"></a>
                 </div>
-                <div class=" md:ml-1">
-                    <img src="/storage/img/iconLogin.png" alt="Login" class="mt-3 w-4">
-                </div>
-            </div>
+               
+ </div>
+ @endguest
         </div>
     </div>
-    <!-- menu mobile -->
+
+<!-- menu mobile -->
 
     <div class="z-50" id="scrollM">
         <div class="hamburger-menu md:hidden ">
@@ -36,7 +38,7 @@
                 <li><a class="menu__item" href="/articles">Articles</a></li>
                 <li><a class="menu__item" href="/contact">Contact</a></li>
                 <li><a class="menu__item" href="#">Sign up</a></li>
-                <li><a class="menu__item" href="#">Login</a></li>
+                <li><a class="menu__item" href="/admin">Login</a></li>
             </ul>
         </div>
     </div>

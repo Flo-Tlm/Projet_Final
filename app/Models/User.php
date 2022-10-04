@@ -15,7 +15,7 @@ class User extends Authenticatable
 {
     
     use CrudTrait; 
-    // use HasRoles;
+    use HasRoles;
     use HasApiTokens, HasFactory, Notifiable;
     
     /**
