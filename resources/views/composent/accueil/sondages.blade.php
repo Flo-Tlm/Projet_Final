@@ -60,12 +60,12 @@
                     <span class="text-gray-400 ml-3">(3 sur 5)</span>
                 </ul>
                 <p class="text-sm text-gray-400 mt-3 mx-auto">861 votes</p>
-
-                <button
+                <a rel="noopener noreferrer" href="/oneArticle" <button
                     class="flex justify-between mt-20  ml-auto text-black bg-[#F2A341] border-0 py-2 px-6 focus:outline-none hover:bg-[#FFC83C] rounded-full">
                     <span>Voir plus </span>
                     <img src="/storage/img/iconlogin2.png" alt="" class="w-auto h-6 ml-3 pt-0" />
-                </button>
+                    </button>
+                </a>
             </div>
         </div>
 
@@ -128,12 +128,12 @@
                     <span class="text-gray-400 ml-3">(3 sur 5)</span>
                 </ul>
                 <p class="text-sm text-gray-400 mt-3 mx-auto">861 votes</p>
-
-                <button
+                <a rel="noopener noreferrer" href="/oneArticle" <button
                     class="flex justify-between mt-20  ml-auto text-black bg-[#F2A341] border-0 py-2 px-6 focus:outline-none hover:bg-[#FFC83C] rounded-full">
                     <span>Voir plus </span>
                     <img src="/storage/img/iconlogin2.png" alt="" class="w-auto h-6 ml-3 pt-0" />
-                </button>
+                    </button>
+                </a>
             </div>
         </div>
 
@@ -194,12 +194,12 @@
                     <span class="text-gray-400 ml-3">(3 sur 5)</span>
                 </ul>
                 <p class="text-sm text-gray-400 mt-3 mx-auto">861 votes</p>
-
-                <button
+                <a rel="noopener noreferrer" href="/oneArticle" <button
                     class="flex justify-between mt-20  ml-auto text-black bg-[#F2A341] border-0 py-2 px-6 focus:outline-none hover:bg-[#FFC83C] rounded-full">
                     <span>Voir plus </span>
                     <img src="/storage/img/iconlogin2.png" alt="" class="w-auto h-6 ml-3 pt-0" />
-                </button>
+                    </button>
+                </a>
             </div>
         </div>
     </div>

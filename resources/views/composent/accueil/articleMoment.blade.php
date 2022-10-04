@@ -2,7 +2,7 @@
     <h1 class="text-4xl font-bold leading-tight md:text-3xl text-center text-white mb-14">Les articles du moment</h1>
             <div class="max-w-7xl mx-auto">
                 <div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    <a rel="noopener noreferrer" href="#"
+                    <a rel="noopener noreferrer" href="/oneArticle"
                         class=" group hover:no-underline focus:no-underline bg-white">
                         <img role="presentation" class="object-cover w-full  h-44 bg-white"
                             src="/storage/img/1080pSS10.jpg">
@@ -15,7 +15,7 @@
                                 in tortor condimentum cursus. Nulla euismod ut justo non laoreet...</p>
                         </div>
                     </a>
-                    <a rel="noopener noreferrer" href="#"
+                    <a rel="noopener noreferrer" href="/oneArticle"
                         class="   group hover:no-underline focus:no-underline bg-white">
                         <img role="presentation" class="object-cover w-full  h-44 bg-white"
                             src="/storage/img/2021-12-26_2.png">
@@ -28,7 +28,7 @@
                                 in tortor condimentum cursus. Nulla euismod ut justo non laoreet...
                         </div>
                     </a>
-                    <a rel="noopener noreferrer" href="#"
+                    <a rel="noopener noreferrer" href="/oneArticle"
                         class="  group hover:no-underline focus:no-underline bg-white">
                         <img role="presentation" class="object-cover w-full  h-44 bg-white"
                             src="/storage/img/nouvelle_map_wip.png">

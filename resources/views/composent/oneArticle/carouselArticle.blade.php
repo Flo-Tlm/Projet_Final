@@ -1,6 +1,6 @@
 
 <section class="max-w-7xl p-10  mx-auto  text-white">
-     <div class="swiper mySwiper">
+     <div class="monswiper swiper mySwiper ">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img

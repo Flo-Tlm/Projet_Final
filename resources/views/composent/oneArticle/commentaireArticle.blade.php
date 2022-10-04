@@ -1,5 +1,5 @@
   <!-- _______________________________________customer review______________________________________________ -->
-  <section class="max-w-6xl p-8 mx-auto">
+  <section class="max-w-6xl p-8 mx-auto z-0">
         <div class="block6">
             <div class="mx-auto max-w-[1220px] ">
                 
