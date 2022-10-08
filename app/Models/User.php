@@ -2,49 +2,50 @@
 
 namespace App\Models;
 
+use Backpack\CRUD\app\Models\Traits\CrudTrait;
+use Illuminate\Database\Eloquent\Model;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
-use Backpack\CRUD\app\Models\Traits\CrudTrait; 
-use Spatie\Permission\Traits\HasRoles;
-
-class User extends Authenticatable
+class Produits extends Model
 {
-    
-    use CrudTrait; 
-    use HasRoles;
-    use HasApiTokens, HasFactory, Notifiable;
-    
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array<int, string>
-     */
-    protected $fillable = [
-        'name',
-        'email',
-        'password',
-    ];
+    use CrudTrait;
 
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var array<int, string>
-     */
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
+    /*
+    |--------------------------------------------------------------------------
+    | GLOBAL VARIABLES
+    |--------------------------------------------------------------------------
+    */
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
+    protected $table = 'articles';
+    
+    protected $guarded = ['id'];
+    
+
     protected $casts = [
-        'email_verified_at' => 'datetime',
+        'image' => 'array'
     ];
+   
+    public function setImageAttribute($value)
+    {
+        $attribute_name = "image";
+        $disk = "public";
+        $destination_path = "/uploads";
+
+        $this->uploadMultipleFilesToDisk($value, $attribute_name, $disk, $destination_path);
+
+   
+    }
+    /*
+    |--------------------------------------------------------------------------
+    | RELATIONS
+    |--------------------------------------------------------------------------
+    */
+public function categories()
+{
+    return $this->belongsToMany(Categories::class,'categories_article','articles_id','categories_id');
+}
+
+public function comms(){
+    return $this->hasMany(Comments::class, 'id_comm', 'user_id', 'article_id', 'content')->orderBy('created_at', 'DESC');
+}
+   
 }

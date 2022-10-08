@@ -5,7 +5,7 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 
-class Article extends Model
+class Users extends Model
 {
     use CrudTrait;
 
@@ -15,24 +15,19 @@ class Article extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'article';
+    protected $table = 'users';
     // protected $primaryKey = 'id';
-    public $timestamps = false;
+    // public $timestamps = false;
     protected $guarded = ['id'];
     // protected $fillable = [];
     // protected $hidden = [];
     // protected $dates = [];
 
-    public function setImageAttribute($value)
-    {
-        $attribute_name = "images";
-        $disk = "public";
-        $destination_path = "/uploads";
-
-        $this->uploadMultipleFilesToDisk($value, $attribute_name, $disk, $destination_path);
-
-    // return $this->attributes[{$attribute_name}]; // uncomment if this is a translatable field
-    }
+    /*
+    |--------------------------------------------------------------------------
+    | FUNCTIONS
+    |--------------------------------------------------------------------------
+    */
 
     /*
     |--------------------------------------------------------------------------

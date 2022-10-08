@@ -13,14 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('commentaires', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->string('content');
-          
+            $table->string('label');
+            $table->string('description');
             $table->timestamps();
         });
     }
-    
 
     /**
      * Reverse the migrations.
@@ -29,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('commentaires');
+        Schema::dropIfExists('categories');
     }
 };

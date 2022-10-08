@@ -5,7 +5,7 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 
-class Sondage extends Model
+class Categories extends Model
 {
     use CrudTrait;
 
@@ -15,11 +15,11 @@ class Sondage extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'sondage';
+    protected $table = 'categories';
     // protected $primaryKey = 'id';
-    public $timestamps = false;
+    // public $timestamps = false;
     protected $guarded = ['id'];
-    // protected $fillable = [];
+    protected $fillable = ['categories_id', 'articles_id'];    
     // protected $hidden = [];
     // protected $dates = [];
 
@@ -34,7 +34,9 @@ class Sondage extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function artilces(){
+        return $this->belongsToMany(Categories::class,'categories_product','categories_id','articles_id');
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES
