@@ -20,6 +20,6 @@ class AuthController extends Controller
         Session::flush();
         Auth::logout();
         $request->session()->invalidate();
-        return redirect('/home');
+        return redirect('/welcome');
     }
 }

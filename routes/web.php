@@ -35,16 +35,15 @@ Route::get('/contact', function () {
 });
 
 
-Route::get('/welcome',[ArticlesController::class, 'getArticles']);
+Route::get('/welcome', [ArticlesController::class, 'getArticles']);
 
 
 Route::post('/registered', [AuthController::class, 'registered'])->name('registered');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
+
 Route::get('/home', [ArticlesController::class, 'getArticles'])->name('home');
-Route::middleware(['throttle:global'])->group(function ()  {
-    Route::post('/contacts', [MailController::class, 'sendMessageGoogle'])->name('send.message.google');
-});
+Route::get('/article/{id}', [ArticlesController::class, 'getArticle'])->name('article');
 Route::get('/details/{id}', [ArticlesController::class, 'getOneDetails'])->whereNumber('id')->name('getDetails');
 Route::post('/commentaires/{id}', [ArticlesController::class, 'addComm']);
