@@ -26,8 +26,8 @@ Route::get('/articles', function () {
     return view('articles');
 });
 
-Route::get('/oneArticle', function () {
-    return view('oneArticle');
+Route::get('/details', function () {
+    return view('details');
 });
 
 Route::get('/contact', function () {
@@ -42,9 +42,9 @@ Route::post('/registered', [AuthController::class, 'registered'])->name('registe
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
-Route::get('/contacts', [MailController::class, 'contact'])->name('contact');
+Route::get('/home', [ArticlesController::class, 'getArticles'])->name('home');
 Route::middleware(['throttle:global'])->group(function ()  {
     Route::post('/contacts', [MailController::class, 'sendMessageGoogle'])->name('send.message.google');
 });
-Route::get('/detail/{id}', [ArticlesController::class, 'getOneDetails'])->whereNumber('id')->name('getDetails');
+Route::get('/details/{id}', [ArticlesController::class, 'getOneDetails'])->whereNumber('id')->name('getDetails');
 Route::post('/commentaires/{id}', [ArticlesController::class, 'addComm']);

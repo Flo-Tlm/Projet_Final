@@ -35,7 +35,7 @@ class Categories extends Model
     |--------------------------------------------------------------------------
     */
     public function artilces(){
-        return $this->belongsToMany(Categories::class,'categories_product','categories_id','articles_id');
+        return $this->belongsToMany(Categories::class,'categories_article','categories_id','articles_id');
     }
     /*
     |--------------------------------------------------------------------------

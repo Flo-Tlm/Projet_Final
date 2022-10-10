@@ -10,7 +10,7 @@
         </div>
         <div class="max-w-7xl mx-auto">
             <div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                <a rel="noopener noreferrer" href="/oneArticle"
+                <a rel="noopener noreferrer" href="/details"
                     class=" group hover:no-underline focus:no-underline bg-white">
                     <img role="presentation" class="object-cover w-full  h-44 bg-white"
                         src="/storage/img/1080pSS10.jpg">
@@ -40,7 +40,7 @@
                     </div>
 
                 </a>
-                <a rel="noopener noreferrer" href="/oneArticle"
+                <a rel="noopener noreferrer" href="/details"
                     class="   group hover:no-underline focus:no-underline bg-white">
                     <img role="presentation" class="object-cover w-full  h-44 bg-white"
                         src="/storage/img/2021-12-26_2.png">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="/oneArticle"
+                <a rel="noopener noreferrer" href="/details"
                     class="  group hover:no-underline focus:no-underline bg-white">
                     <img role="presentation" class="object-cover w-full  h-44 bg-white"
                         src="/storage/img/nouvelle_map_wip.png">

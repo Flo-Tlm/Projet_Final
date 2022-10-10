@@ -2,50 +2,48 @@
 
 namespace App\Models;
 
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use Laravel\Sanctum\HasApiTokens;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
-use Illuminate\Database\Eloquent\Model;
+use Spatie\Permission\Traits\HasRoles;
 
-class Produits extends Model
+class User extends Authenticatable
 {
     use CrudTrait;
+    use HasRoles;
+    use HasApiTokens, HasFactory, Notifiable;
 
-    /*
-    |--------------------------------------------------------------------------
-    | GLOBAL VARIABLES
-    |--------------------------------------------------------------------------
-    */
-
-    protected $table = 'articles';
-    
-    protected $guarded = ['id'];
-    
-
-    protected $casts = [
-        'image' => 'array'
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'name',
+        'prenom',
+        'email',
+        'password',
     ];
-   
-    public function setImageAttribute($value)
-    {
-        $attribute_name = "image";
-        $disk = "public";
-        $destination_path = "/uploads";
 
-        $this->uploadMultipleFilesToDisk($value, $attribute_name, $disk, $destination_path);
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var array<int, string>
+     */
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
 
-   
-    }
-    /*
-    |--------------------------------------------------------------------------
-    | RELATIONS
-    |--------------------------------------------------------------------------
-    */
-public function categories()
-{
-    return $this->belongsToMany(Categories::class,'categories_article','articles_id','categories_id');
-}
-
-public function comms(){
-    return $this->hasMany(Comments::class, 'id_comm', 'user_id', 'article_id', 'content')->orderBy('created_at', 'DESC');
-}
-   
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+    ];
 }

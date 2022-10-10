@@ -13,8 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('commentaires', function (Blueprint $table) {
+            $table->id();
+            $table->string('content');
+          
+            $table->timestamps();
+        });
     }
+    
 
     /**
      * Reverse the migrations.
@@ -23,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('commentaires');
     }
 };

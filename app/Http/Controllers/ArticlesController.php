@@ -29,7 +29,7 @@ class ArticlesController extends Controller
             'actu' => $actu
         ]);
     }
-    static public function getCountProds(){    
+    static public function getCountArt(){    
    $articles = Articles::all();
    $ArtCount= count($articles);
    $categories = Categories::all();
@@ -48,7 +48,7 @@ class ArticlesController extends Controller
 
 
     public function getOneDetails($id){
-        $artilce = Articles::find($id);
+        $article = Articles::find($id);
        $articles = Articles::where('actif', '=', 1)->inRandomOrder()->limit(3)->get();
      
         $comments = Commentaires::where('product_id', $id)->where('valid','1')->inRandomOrder()->limit(2)->get();
@@ -71,7 +71,7 @@ class ArticlesController extends Controller
         $article = Articles::find($id);
         $comments->content = $request->contenu;
         $comments->user_id = Auth::user()->id;
-        $comments->product_id = $id;
+        $comments->article_id = $id;
         $comments->save();
         $article->update();
         return redirect()->route('getDetails', ['id' => $id]);

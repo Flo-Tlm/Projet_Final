@@ -4,16 +4,16 @@
 
 {{-- INFOSARTICLE --------------------------------------------------------------------------------------------}}
 
-@include('composent.oneArticle.textArticle')
+@include('composent.details.textArticle')
 
 {{-- CAROUSEL --------------------------------------------------------------------------------------------}}
-@include('composent.oneArticle.carouselArticle')
+@include('composent.details.carouselArticle')
 
 {{-- SONDAGE --------------------------------------------------------------------------------------------}}
-@include('composent.oneArticle.sondageArticle')
+@include('composent.details.sondageArticle')
 
 {{-- COMMENTAIRES --------------------------------------------------------------------------------------------}}
-@include('composent.oneArticle.commentaireArticle')
+@include('composent.details.commentaireArticle')
 
 
 @endsection

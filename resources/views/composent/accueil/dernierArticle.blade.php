@@ -24,7 +24,7 @@
 
 
                 <p class="text-sm text-gray-400 mt-3 ml-1">publié le 09/09/2022</p>
-                <a rel="noopener noreferrer" href="/oneArticle"
+                <a rel="noopener noreferrer" href="/details"
                 <button class=" flex justify-between mt-20  ml-auto text-black bg-[#F2A341] border-0 py-2 px-6 focus:outline-none hover:bg-[#FFC83C] rounded-full">
                     <span>Voir plus </span>
                     <img src="/storage/img/iconlogin2.png" alt="" class="w-auto h-6 ml-3 pt-0" />
