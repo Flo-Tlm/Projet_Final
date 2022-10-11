@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticlesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,12 +39,12 @@ Route::get('/contact', function () {
 Route::get('/welcome', [ArticlesController::class, 'getArticles']);
 
 
-Route::post('/registered', [AuthController::class, 'registered'])->name('registered');
-Route::post('/login', [AuthController::class, 'login'])->name('login');
-Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+// Route::post('/registered', [AuthController::class, 'registered'])->name('registered');
+// Route::post('/login', [AuthController::class, 'login'])->name('login');
+// Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 
-Route::get('/home', [ArticlesController::class, 'getArticles'])->name('home');
+
 Route::get('/article/{id}', [ArticlesController::class, 'getArticle'])->name('article');
 Route::get('/details/{id}', [ArticlesController::class, 'getOneDetails'])->whereNumber('id')->name('getDetails');
 Route::post('/commentaires/{id}', [ArticlesController::class, 'addComm']);

@@ -19,7 +19,11 @@ class CreateArticlesTable extends Migration
             $table->text('description');
             $table->date('date');
             $table->string('images')->nullable();
+            $table->integer('actu')->nullable();
+            $table->integer('actif')->nullable();
             $table->integer('id_sondage')->nullable();
+
+            $table->timestamps();
         });
     }
 

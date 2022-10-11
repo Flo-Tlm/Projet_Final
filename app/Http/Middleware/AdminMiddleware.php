@@ -16,8 +16,14 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if (! \backpack_user()->hasRole('Administrateur')) 
-        return redirect('/welcome');
-    return $next($request);
-    }
+        
+        
+
+    //  if (! \backpack_user()->hasRole('Administrateur')){
+    //         return redirect('/admin');
+            
+    //     }
+        
+        return $next($request);
+    } 
 }

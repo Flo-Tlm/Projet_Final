@@ -22,7 +22,7 @@ class ArticlesController extends Controller
         }
         $actu = Articles::where('actu', '=', 1)->get();
         $categories = Categories::all();
-        return view('index', [
+        return view('welcome', [
             'articles' => $articles->paginate(8),  //a la place d'un get me demande pas pourquoi!
             'categories' => $categories,
             'q' => $q,

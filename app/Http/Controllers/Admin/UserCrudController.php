@@ -41,7 +41,7 @@ class UserCrudController extends CrudController
     {
         CRUD::column('name');
         CRUD::column('lastname');
-        CRUD::column('pseudo');
+      
         CRUD::column('email');
         CRUD::column('password');
 
@@ -62,7 +62,7 @@ class UserCrudController extends CrudController
     {
         CRUD::field('name');
         CRUD::field('lastname');
-        CRUD::field('pseudo');
+    
         CRUD::field('email');
         CRUD::field('password');
 
