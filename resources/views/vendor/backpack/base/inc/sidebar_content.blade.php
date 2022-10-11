@@ -3,7 +3,7 @@
 
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('article') }}"><i class="nav-icon la la-file-alt"></i> Articles</a></li>
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('user') }}"><i class="nav-icon la la-user"></i> Users</a></li>
-<li class="nav-item"><a class="nav-link" href="{{ backpack_url('sondage') }}"><i class="nav-icon la la-question"></i> Sondages</a></li>
+{{-- <li class="nav-item"><a class="nav-link" href="{{ backpack_url('sondage') }}"><i class="nav-icon la la-question"></i> Sondages</a></li> --}}
 
 
 <!-- Users, Roles, Permissions -->
