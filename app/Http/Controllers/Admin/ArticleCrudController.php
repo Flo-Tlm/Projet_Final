@@ -70,8 +70,8 @@ class ArticleCrudController extends CrudController
     protected function setupCreateOperation()
     {
         $this->crud->setValidation([
-            'titre' => 'required|min:2',
-            'image' => 'required',
+            // 'titre' => 'required|min:2',
+            // 'image' => 'required',
             'date' => 'required',
             'description' =>'required|min:10',
         ]);
@@ -83,7 +83,7 @@ class ArticleCrudController extends CrudController
         CRUD::addField([ // Photo
             'name'      => 'images',
             'label'     => 'images',
-            'type'      => 'upload_multiple',
+            'type'      => 'upload',
             'prefix' => 'storage',
             'upload'    => true,
             'temporary' => 10,
