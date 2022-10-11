@@ -1,7 +1,6 @@
 
 
 
-
 <section class=" text-white body-font overflow-hidden z-auto">
     <div class="fixed w-full top-0  p-5   items-center  ">
         <div class=" hidden w-full bg-[#395558] shadow-xl mx-auto md:flex p-5   items-center ">
@@ -22,18 +21,13 @@
                 </div>
                
  </div>
- 
-        </div>
-    </div>
-
-
-    @auth
+ {{-- @auth
 @role('Administrateur')
-<div class="bg-[#EFA48F] flex justify-end"><a class="mx-2 text-white" href="/admin/dashboard">Dashboard</a>
+<div class="bg-[#395558] flex justify-end"><a class="mx-2 text-white" href="/admin/dashboard">Dashboard</a>
     <a class="mx-2 text-white" href="/logout">Se déconnecter</a>  
 </div>
 @else
-<div class="bg-[#EFA48F] flex justify-end">
+<div class="bg-[#395558] flex justify-end">
     <div class="flex items-center content-center justify-center px-10">
         <a href="/logout">Se déconnecter</a>  
     </div>
@@ -41,13 +35,16 @@
 @endrole 
 @endauth
 @guest
-<div class="bg-[#EFA48F] flex justify-end">
+<div class="bg-[#395558] flex justify-end">
     <div class="flex items-center content-center justify-center px-10">
         <a class="mx-2" href="/admin/register">S'inscrire </a>
         <a href="/admin">S'identifier</a>  
     </div>
    </div>
-@endguest
+@endguest --}}
+        </div>
+        
+    </div>
 
 <!-- menu mobile -->
 

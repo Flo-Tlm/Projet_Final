@@ -105,14 +105,13 @@ class ArticleCrudController extends CrudController
     function getFieldsData()
     {
         $this->crud->addColumn([
-            'name' => 'images',
-            'label' => 'images',
-            'type' => 'images',
-            'prefix' => '',
-            'height' => '80px',
-            'width' => 'auto',
-            
-
+            'name' => '', // The db column name
+            'label' => "", // Table column heading
+            'type' => "",
+            'prefix' => 'storage',
+            'height' => '100px',
+            'width' => '100px',
         ]);
-    }
+          
+}
 }
